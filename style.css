@@ -33,7 +33,15 @@ body {
 .panel h3 {
   font-size: 25px;
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 15px;
+  left: 40px;
   opacity: 0;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
 }
