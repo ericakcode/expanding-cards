@@ -47,3 +47,11 @@ body {
   opacity: 1;
   transition: opacity 0.5s ease-in 0.3s;
 }
+
+.panel:not(.active):hover {
+  transition: all 1s;
+  transform: scale(1.01);
+  box-shadow: 10px 10px 15px #888888;
+}
+
+/* test */
